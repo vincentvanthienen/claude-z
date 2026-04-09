@@ -17,6 +17,7 @@
 <p align="center">
   <a href="#before--after">Before/After</a> •
   <a href="#install">Install</a> •
+  <a href="#update">Update</a> •
   <a href="#usage">Usage</a> •
   <a href="#intensity-levels">Levels</a> •
   <a href="#skills">Skills</a>
@@ -80,6 +81,14 @@ Or clone and install locally:
 git clone https://github.com/vincentvanthienen/claude-z
 cd claude-z
 claude plugin install .
+```
+
+## Update
+
+Pull the latest skills after changes are pushed to this repo:
+
+```bash
+claude plugin update gen-z@gen-z
 ```
 
 ## Usage
