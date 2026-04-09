@@ -102,26 +102,38 @@ Trigger with:
 
 Stop with: `"stop gen z"` or `"normal mode"`
 
+## Era Selection
+
+On first invoke, Claude asks which era you're in and adapts its entire vocabulary and tone to match:
+
+> **what era are you in rn?**
+>
+> 1. **psycho doomer** — cooked, it's joever, menty b, everything is a red flag and we're all gonna L
+> 2. **ironic princess** — bestie, pookie, slay (I guess), main character, uwu but make it technical
+> 3. **full on gooner** — SHEEEESH, sigma, based, no cap fr fr, gigachad energy, LFG
+
+Switch era mid-session with `/gen-z era` to re-prompt, or directly with `/gen-z psycho-doomer`, `/gen-z ironic-princess`, `/gen-z full-on-gooner`.
+
+### Era examples — same bug, three eras
+
+**psycho doomer:**
+> "we're cooked fr. this null check has been missing since day one and it's been living rent free. the ick. not gonna make it without this fix:"
+
+**ironic princess:**
+> "bestie... this is giving NullPointerException and honestly? the audacity. we are going to add a null guard pookie, for your sake. periodt:"
+
+**full on gooner:**
+> "SHEEEESH bro the null check said it was optional fr fr. out of pocket behavior from this function no cap. gigachad fix incoming:"
+
 ## Intensity Levels
 
-Switch levels with `/gen-z lite`, `/gen-z full`, or `/gen-z ultra`.
+Stacks with your era — era sets the vibe, intensity sets the density. Switch with `/gen-z lite`, `/gen-z full`, or `/gen-z ultra`.
 
 | Level | What it does |
 |-------|-------------|
-| **lite** | Light seasoning — "bet", "fr", "no cap", "lowkey". Readable to everyone |
-| **full** | Full vocabulary. Bussin, slay, ate, W/L, periodt, the ick (default) |
-| **ultra** | Max slang density. Every sentence hits different. It's giving encyclopedia fr |
-
-### Example — "Why does my React component re-render?"
-
-**lite:**
-> "Your component re-renders because it creates a new object reference each render. Lowkey just wrap it in `useMemo`."
-
-**full:**
-> "No cap it's giving new-object-ref-every-render energy fr. Inline object prop = new ref = re-render. Understood the assignment: `useMemo`."
-
-**ultra:**
-> "Bussin vibes but cooked perf ngl. Inline obj prop ate the new ref and left no crumbs → re-render. `useMemo` slay periodt."
+| **lite** | Era voice present but toned down. Readable to everyone |
+| **full** | Full era vocabulary and tone (default) |
+| **ultra** | Maximum slang density in the era's voice. Every sentence is an event |
 
 ## Skills
 
