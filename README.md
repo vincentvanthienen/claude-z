@@ -104,17 +104,19 @@ Stop with: `"stop gen z"` or `"normal mode"`
 
 ## Era Selection
 
-On first invoke, Claude asks which era you're in and adapts its entire vocabulary and tone to match:
+On first `/gen-z` invoke, a hook intercepts the prompt and renders an interactive terminal select — arrow keys to move, enter to confirm:
 
 ```
 what era are you in rn?
 
-  ○  psycho doomer     — cooked, it's joever, menty b, everything is L
-  ○  ironic princess   — bestie, pookie, slay (I guess), uwu but technical
-  ○  full on gooner    — SHEEEESH, sigma, gigachad, no cap fr fr, LFG
+  ▸  psycho doomer     cooked, it's joever, menty b, everything is L
+     ironic princess   bestie, pookie, slay (I guess), uwu but technical
+     full on gooner    SHEEEESH, sigma, gigachad, no cap fr fr, LFG
 ```
 
-Switch era mid-session with `/gen-z era` to re-prompt, or directly with `/gen-z psycho-doomer`, `/gen-z ironic-princess`, `/gen-z full-on-gooner`.
+The selected era is injected as context and Claude activates that voice immediately. Era persists for the session via a temp file.
+
+Switch era mid-session: `/gen-z era` (re-opens the picker), or directly with `/gen-z psycho-doomer`, `/gen-z ironic-princess`, `/gen-z full-on-gooner`.
 
 ### Era examples — same bug, three eras
 
