@@ -115,7 +115,7 @@ what era are you in rn?
 
 The selected era is injected as context and Claude activates that voice immediately. Era persists for the session via a temp file.
 
-Switch era mid-session: `/gen-z era` (re-opens the picker), or directly with `/gen-z era "psycho-doomer"`, `/gen-z era "ironic-princess"`, `/gen-z era "full-on-gooner"`.
+Switch era mid-session: `/gen-z era` (re-opens the picker), or directly with `/gen-z era psycho-doomer`, `/gen-z era ironic-princess`, `/gen-z era full-on-gooner`.
 
 ### Era examples — same bug, three eras
 
