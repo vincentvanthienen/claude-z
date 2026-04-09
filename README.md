@@ -133,6 +133,7 @@ Switch era mid-session: `/gen-z era` (re-opens the picker), or directly with `/g
 | Skill | What it does | Trigger |
 |-------|-------------|---------|
 | **gen-z** | Full throttle Gen Z communication mode | `/gen-z` |
+| **gen-z skibidi** | 🚽 | `/gen-z skibidi` |
 | **gen-z-commit** | Conventional Commits format — professional subject, gen z body | `/gen-z-commit` |
 | **gen-z-review** | One-line PR comments with severity vibes: `🔴 cooked:` `🟡 sus:` `🔵 nit:` | `/gen-z-review` |
 
