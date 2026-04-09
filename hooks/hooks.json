@@ -1,16 +1,4 @@
 {
-  "description": "gen-z era selector — interactive terminal picker on /gen-z invoke",
-  "hooks": {
-    "UserPromptSubmit": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/select_era.py\"",
-            "timeout": 60
-          }
-        ]
-      }
-    ]
-  }
+  "description": "gen-z era selector",
+  "hooks": {}
 }
