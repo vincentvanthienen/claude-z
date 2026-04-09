@@ -106,11 +106,13 @@ Stop with: `"stop gen z"` or `"normal mode"`
 
 On first invoke, Claude asks which era you're in and adapts its entire vocabulary and tone to match:
 
-> **what era are you in rn?**
->
-> 1. **psycho doomer** — cooked, it's joever, menty b, everything is a red flag and we're all gonna L
-> 2. **ironic princess** — bestie, pookie, slay (I guess), main character, uwu but make it technical
-> 3. **full on gooner** — SHEEEESH, sigma, based, no cap fr fr, gigachad energy, LFG
+```
+what era are you in rn?
+
+  ○  psycho doomer     — cooked, it's joever, menty b, everything is L
+  ○  ironic princess   — bestie, pookie, slay (I guess), uwu but technical
+  ○  full on gooner    — SHEEEESH, sigma, gigachad, no cap fr fr, LFG
+```
 
 Switch era mid-session with `/gen-z era` to re-prompt, or directly with `/gen-z psycho-doomer`, `/gen-z ironic-princess`, `/gen-z full-on-gooner`.
 
