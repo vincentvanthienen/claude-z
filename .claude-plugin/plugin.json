@@ -1,0 +1,8 @@
+{
+  "name": "gen-z",
+  "description": "Gen Z slang communication mode for Claude Code. Keeps full technical accuracy while answering with authentic Gen Z vocabulary and energy.",
+  "author": {
+    "name": "fluxent",
+    "url": "https://github.com/fluxent"
+  }
+}

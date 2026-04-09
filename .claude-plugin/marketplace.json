@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gen-z",
+  "description": "Gen Z slang communication mode for Claude Code. Keeps full technical accuracy while answering with authentic Gen Z vocabulary and energy.",
+  "owner": {
+    "name": "fluxent",
+    "url": "https://github.com/fluxent"
+  },
+  "plugins": [
+    {
+      "name": "gen-z",
+      "description": "Answer in Gen Z slang. No cap on the technical accuracy. Full bussin vibes.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
