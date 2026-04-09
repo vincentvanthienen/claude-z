@@ -19,13 +19,12 @@
   <a href="#install">Install</a> •
   <a href="#update">Update</a> •
   <a href="#usage">Usage</a> •
-  <a href="#intensity-levels">Levels</a> •
   <a href="#skills">Skills</a>
 </p>
 
 ---
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that makes Claude answer in authentic Gen Z slang — keeping 100% technical accuracy while hitting different. Three skills: **gen-z** (communication mode), **gen-z-commit** (commit messages with vibe), and **gen-z-review** (code review that ate and left no crumbs).
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that makes Claude answer in authentic Gen Z slang — full throttle, no half-measures. Keeps 100% technical accuracy while hitting different. Three skills: **gen-z** (communication mode), **gen-z-commit** (commit messages with vibe), and **gen-z-review** (code review that ate and left no crumbs).
 
 ## Before / After
 
@@ -129,21 +128,11 @@ Switch era mid-session: `/gen-z era` (re-opens the picker), or directly with `/g
 **full on gooner:**
 > "SHEEEESH bro the null check said it was optional fr fr. out of pocket behavior from this function no cap. gigachad fix incoming:"
 
-## Intensity Levels
-
-Stacks with your era — era sets the vibe, intensity sets the density. Switch with `/gen-z lite`, `/gen-z full`, or `/gen-z ultra`.
-
-| Level | What it does |
-|-------|-------------|
-| **lite** | Era voice present but toned down. Readable to everyone |
-| **full** | Full era vocabulary and tone (default) |
-| **ultra** | Maximum slang density in the era's voice. Every sentence is an event |
-
 ## Skills
 
 | Skill | What it does | Trigger |
 |-------|-------------|---------|
-| **gen-z** | Full Gen Z communication mode with lite/full/ultra levels | `/gen-z` |
+| **gen-z** | Full throttle Gen Z communication mode | `/gen-z` |
 | **gen-z-commit** | Conventional Commits format — professional subject, gen z body | `/gen-z-commit` |
 | **gen-z-review** | One-line PR comments with severity vibes: `🔴 cooked:` `🟡 sus:` `🔵 nit:` | `/gen-z-review` |
 
